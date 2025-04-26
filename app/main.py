@@ -6,7 +6,7 @@ from db import init_db
 
 app = FastAPI(
     title="📨 FastAPI Email Gateway with MCP tool support",
-    description="Send emails with open/click tracking, store metrics, and view basic stats — all self-hosted.",
+    description="Send emails with open & click tracking, log stats to SQLite, and now with full MCP tool integration—all powered by FastAPI — all self-hosted.",
     version="1.0.0"
 )
 
